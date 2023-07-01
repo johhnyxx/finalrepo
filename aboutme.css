@@ -1,0 +1,41 @@
+.heading1 {
+    text-align: center;
+    font-family: calibri;
+    color: rgb(119, 64, 170);
+    padding: 40px;
+    font-size: x-large;
+}
+
+.info {
+    padding: 600px;
+    font-family: calibri;
+    font-size: x-large;
+}
+
+.heading2 {
+    font-family: calibri;
+    color: rgb(119, 64, 170);
+    padding: 10px;
+    font-size: x-large;
+}
+
+.heading3 {
+    font-family: calibri;
+    color: rgb(119, 64, 170);
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+   
+.heading4 {
+    color: rgb(119, 64, 170);
+    font-size: x-large;
+}
+
+.heading5 {
+    font-size:small;
+    font-family: calibri;
+    text-align: center;
+}

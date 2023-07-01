@@ -4,15 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href='portf.css' rel='stylesheet'
+    <link href='portf.css' rel='stylesheet'>
+    <style type="text/css">
+        *{
+            text-decoration: none;
+        }
+        .navbar {
+            font-family: calibri; 
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .navdiv {
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px; font-weight: 600; color:rgb(183, 148, 250);
+        }
+        li{
+            list-style: none; display:inline-block;
+        }
+        li a{
+            color: rgb(183, 148, 250); font-size: 18px; font-weight: bold; margin-right: 25px;
+        }
+    </style>
+
+
+
 </head>
 <body>
-    <h1>im jonathan vi, a</h1>
-    
-    <div class="nameheading">
-        <h1>software engineer</h1>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">E1T1</a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="work.html">Work</a></li>
+            </ul>
         </div>
+    </nav>
+    
 
     
+    <div class="name">
+        <h1 style="position:relative; left:-600px; top: 250px">im jonathan vi,</h1>
+    </div>
+   
+    
+    <div class="nameheading" style="position:relative; left:-528px; top: 250px">
+        <h1> a software engineer</h1>
+        </div>
+        
+    <div class="aboutme" style="position:relative; left:-20px; top:150px;">  
+        <h2>I am currntly an upcoming junior at Archbishop Riordan interning at E1T1 Tech Internship. I love playing sports with friends and enjoy a walk outside to get some fresh air. 
+    </h2>
+        </div>
+    
+    <div class="workbutton" style="position:relative; left:175px; top: 10px;">
+        <button type="button" style="background-color:rgb(183, 148, 250); color:white; border-radius:5px; font-size: xx-large;">About Me</button>
+    </div>
+        
+    <div class="workbutton2" style="position:relative; left:430px; top:-33px;">
+        <button type="button" style="background-color:rgb(183, 148, 250); color:white; border-radius:5px; font-size: xx-large;">Work</button>
+    </div>
+
+    <img src="img-1122.jpeg" style="float:right; position:relative; left: -250px; top: -500px" width="450px">
+
 </body>
 </html>
